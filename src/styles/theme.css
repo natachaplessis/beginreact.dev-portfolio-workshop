@@ -3,23 +3,23 @@
 @tailwind utilities;
 
 #app {
-  --color-background: 242 230 254;
-  --color-paper: 255 195 248;
+  --color-background: 244 231 254;
+  --color-paper: 232 200 249;
   --color-text-primary: 0 0 0;
   --color-text-secondary: 38 38 38;
 
-  --color-primary: 234 0 255;
-  --color-secondary: 4 217 255;
+  --color-primary: 205 148 255;
+  --color-secondary: 255 133 45;
 }
 
 #app.dark {
-  --color-background: 24 3 46;
-  --color-paper: 40 5 75;
+  --color-background: 18 7 18;
+  --color-paper: 37 12 39;
   --color-text-primary: 255 255 255;
   --color-text-secondary: 217 217 217;
 
-  --color-primary: 234 0 255;
-  --color-secondary: 4 217 255;
+  --color-primary: 205 148 255;
+  --color-secondary: 255 133 45;
 }
 
 #app {
