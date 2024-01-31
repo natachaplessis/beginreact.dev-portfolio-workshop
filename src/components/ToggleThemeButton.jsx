@@ -5,12 +5,8 @@ import { useTheme } from "../context/ThemeProvider";
 
 export const ToggleThemeButton = () => {
   // Dark Mode - Exercise
-  const {theme, toggleTheme} = useTheme();
-
-  const isDark = theme==='dark';
-  const isLight = theme==='light';
+  const {isLight, isDark, toggleTheme} = useTheme();
   
-
   return (
     <div className="relative p-2 overflow-hidden rounded-full border-primary">
       <MdOutlineWbSunny
@@ -20,7 +16,6 @@ export const ToggleThemeButton = () => {
           [styles.exit]: isDark,
         })}
       />
-      {console.log(theme)}
       <MdOutlineModeNight
         onClick={toggleTheme}
         className={clsx("absolute top-2 h-6 w-6 cursor-pointer text-primary", {

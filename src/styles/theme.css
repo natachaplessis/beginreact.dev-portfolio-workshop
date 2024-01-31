@@ -4,7 +4,7 @@
 
 #app {
   --color-background: 244 231 254;
-  --color-paper: 232 200 249;
+  --color-paper: 238 208 255;
   --color-text-primary: 0 0 0;
   --color-text-secondary: 38 38 38;
 
@@ -13,8 +13,8 @@
 }
 
 #app.dark {
-  --color-background: 18 7 18;
-  --color-paper: 37 12 39;
+  --color-background: 25 0 36;
+  --color-paper: 50 0 56;
   --color-text-primary: 255 255 255;
   --color-text-secondary: 217 217 217;
 

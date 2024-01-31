@@ -1,16 +1,16 @@
-import { SiGithub, SiLinkedin, SiTwitter } from 'react-icons/si';
+import { SiGithub, SiLinkedin, SiInstagram } from 'react-icons/si';
 
-export const GITHUB_USERNAME = 'melvynx';
+export const GITHUB_USERNAME = 'natachaplessis';
 
 export const EMAIL = 'test@email.com';
 
-export const FULL_NAME = 'BeginReact';
+export const FULL_NAME = 'Natacha Plessis-Troadec';
 
 export const SOCIAL_NETWORKS = [
   {
-    url: 'https://www.twitter.com/',
-    name: 'Twitter',
-    icon: <SiTwitter />,
+    url: 'https://www.instagram.com/',
+    name: 'Instagram',
+    icon: <SiInstagram />,
   },
   {
     url: 'https://www.linkedin.com/',
