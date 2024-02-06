@@ -20,9 +20,7 @@ export const HeroSection = () => {
           </span>
         </h1>
         <p className="md:max-w-[50%] text-xl text-center md:text-justify">
-          <b>Apprenti React.</b> I’m a software developer that make thing on
-          internet, very happy to see your here, place holder please fill
-          something here please fill something here.
+          <b>Digital Learning Conceptor</b> I can teach history, i can code, and i can make you laugh.
         </p>
       </div>
     </div>
