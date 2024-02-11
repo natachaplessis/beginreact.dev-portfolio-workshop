@@ -14,12 +14,18 @@ export const ProjectSection = () => {
   } = useFetch(getListOfUrlRepositoriesUrl(GITHUB_USERNAME));
 
   if(status === 'pending' || status === 'idle') {
-    return <Loader />
+    return (
+      <SectionWrapper title="Projects">
+        <Loader />
+      </SectionWrapper>
+    );
   }
 
   if(error) {
     return (
-      <p>Error !</p>
+      <SectionWrapper title="Projects">
+        <p>Error !</p>  
+      </SectionWrapper>
     );
   }
 

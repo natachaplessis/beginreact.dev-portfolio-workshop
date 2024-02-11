@@ -4,7 +4,7 @@ import { MemoryCard } from "./MemoryCard";
 
 export const MemoryBoard = () => {
   // Memory Game - Exercise
-  const {cards, returnedCards} = useMemory();
+  const {cards, onReturnCard} = useMemory();
 
   if (!cards) {
     return (
@@ -16,8 +16,9 @@ export const MemoryBoard = () => {
 
   return (
     <div className="grid grid-cols-6 grid-rows-6 gap-2 w-max">
-      {cards.map((card) => {return (
-        <MemoryCard key={card.id} onClick={returnedCards()} card={card}>
+      {cards.map((card) => {
+        return (
+        <MemoryCard key={card.id} onClick={() => onReturnCard(card)} card={card}>
           {card.emoji}
         </MemoryCard>
       )})}

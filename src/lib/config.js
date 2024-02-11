@@ -1,8 +1,8 @@
 import { SiGithub, SiLinkedin, SiInstagram } from 'react-icons/si';
 
-export const GITHUB_USERNAME = 'natachaplessis';
+export const GITHUB_USERNAME = "natachaplessis";
 
-export const EMAIL = 'test@email.com';
+export const EMAIL = 'natachaplessis@gmail.com';
 
 export const FULL_NAME = 'Natacha Plessis-Troadec';
 
